@@ -1,0 +1,35 @@
+.navigation {
+    display: flex;
+    justify-content: space-between;
+    font-size: 0.8em;
+    align-items: center;
+    padding-top: 60px;
+    border-bottom: solid 1px #000000;
+    padding-bottom: 20px;
+}
+
+.menu li {
+    display: inline;
+    margin-left: 15px;
+}
+
+.hero-text {
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.hero-text div {
+    width: 40vw;
+}
+
+.hero-text h1 {
+    font-size: 6em;
+    line-height: 80%;
+}
+
+.hero-text h4 {
+    font-size: 2em;
+}
