@@ -1,44 +1,76 @@
 html, body {
-  margin: 0 !important;
-  padding: 0 !important;
-  max-width: 100% !important;
-  width: 100% !important;
-  display: block !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    max-width: 100% !important;
+    width: 100% !important;
+    display: block !important;
+}
+
+a:link {
+    color: black;
+    text-decoration: none;
+}
+
+a:visited {
+    color: black;
+}
+
+a:hover {
+    color: black;
+}
+
+a:active {
+    color: black;
 }
 
 .nav-banner {
-  width: 100%;
-  border-bottom: solid 1px #000000;
+    width: 100%;
+    border-bottom: solid 1px #000000;
 }
 
 .navigation {
-  max-width: 1140px;
-  margin: 0 auto;
-  display: flex;
-  justify-content: flex-start;
-  font-size: 15px;
-  align-items: center;
-  padding-top: 40px;
-  padding-bottom: 20px;
-  padding-left: 20px;
-  padding-right: 20px;
-  gap: 5px;
+    max-width: 1140px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: flex-start;
+    font-size: 15px;
+    align-items: center;
+    padding-top: 40px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    gap: 5px;
  }
 
- .menu ul {
-   display: flex;
-   list-style: none;
-   margin: 0;
+.horizontal-box-list {
+   list-style-type: none;
    padding: 0;
+   margin: 0;
+   display: flex;
    gap: 5px;
+   flex-wrap: wrap;
  }
 
-.menu li {
-    display: inline;
-    margin-left: 15px;
+.horizontal-box-list li {
+    display: inline-block;
+    background-color: white;
+    color: white;
+    padding: 5px 25px;
+    border-radius: 4px;
+    transition: transform 0.3s ease;
 }
 
-  .container {
+.horizontal-box-list li:hover {
+  background-color: #dbdbdb;
+  transform: translateY(-3px);
+}
+
+.horizontal-box-list li:active {
+  background-color: #dbdbdb;
+  transform: translateY(3px);
+}
+
+.container {
     max-width: 1140px;
     margin: 0 auto;
     padding: 0 20px;
