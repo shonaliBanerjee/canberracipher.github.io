@@ -1,11 +1,27 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  overflow-x: hidden;
+}
+
+.container {
+  padding: 0;
+  max-width: 100%;
+  width: 100%;
+  margin: 0;
+}
+
 .navigation {
-    display: flex;
-    justify-content: space-between;
-    font-size: 0.8em;
-    align-items: center;
-    padding-top: 60px;
-    border-bottom: solid 1px #000000;
-    padding-bottom: 20px;
+  display: flex;
+  justify-content: space-between;
+  font-size: 0.8em;
+  align-items: center;
+  padding-top: 60px;
+  border-bottom: solid 1px #000000;
+  padding-bottom: 20px;
+  padding-left: 0;
+  padding-right: 0;
 }
 
 .menu li {
